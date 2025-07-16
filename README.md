@@ -1,6 +1,4 @@
-# DentFuseNet: Dynamically Weighted
-Interpretable Ensembles for Multi-Condition
-Dental and Oral Cancer Diagnostics
+# DentFuseNet: Dynamically WeightedInterpretable Ensembles for Multi-Condition Dental and Oral Cancer Diagnostics
 
 
 Abstract
