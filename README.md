@@ -28,3 +28,9 @@ multi-condition oral diagnostics. This work sets a new performance benchmark and
 a scalable path toward clinically viable, AI-assisted screening tools. Future research will
 explore external validation and integration of multi-modal data to enhance generalization and
 applicability across diverse clinical environments.
+
+
+
+![Example Image](cc-dnt.png)
+
+Figure 1: Correct Classification
