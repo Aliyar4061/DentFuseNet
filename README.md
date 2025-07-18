@@ -77,6 +77,8 @@ Figure 11: Confusion matrix of weighted ensemble
 
 
 
+
+
 ### Test set performance with TTA (Dental)
 
 | Model               | Test Loss | Acc (%) | Bal Acc (%) | Prec (%) | Recall (%) | F1 (%) | Spec (%) | Kappa | MCC  | Log Loss | Brier | AUC  |
