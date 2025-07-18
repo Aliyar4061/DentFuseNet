@@ -34,3 +34,9 @@ applicability across diverse clinical environments.
 ![Example Image](cc-dnt.png)
 
 Figure 1: Correct Classification
+
+![Example Image](cc-or.png)
+
+Figure 2: Correct Classification
+
+
