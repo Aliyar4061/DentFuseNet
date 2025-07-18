@@ -39,4 +39,63 @@ Figure 1: Correct Classification
 
 Figure 2: Correct Classification
 
+![Example Image](lc-dens-dnt.png)
+
+Figure 3: Learning curve of DenseNet121
+
+![Example Image](lc-effi-dnt.png)
+
+Figure 4: Learning curve of EfficientNetV2
+
+![Example Image](lc-res-dnt.png)
+
+Figure 5: Learning curve of ResNet50
+
+![Example Image](lc-inc-dnt.png)
+
+Figure 6: Learning curve of InceptionV3
+
+![Example Image](conf-dens-dnt.png)
+Figure 7: Confusion matrix of DenseNet121
+
+![Example Image](conf-effi-dnt.png)
+
+Figure 8: Confusion matrix of EfficientNetV2
+
+![Example Image](conf-res-dnt.png)
+
+Figure 9: Confusion matrix of ResNet50
+
+![Example Image](conf-inc-dnt.png)
+
+Figure 10: Confusion matrix of InceptionV3
+
+![Example Image](conf-ens-dnt.png)
+
+Figure 11: Confusion matrix of weighted ensemble
+
+
+
+
+### Test set performance with TTA (Dental)
+
+| Model               | Test Loss | Acc (%) | Bal Acc (%) | Prec (%) | Recall (%) | F1 (%) | Spec (%) | Kappa | MCC  | Log Loss | Brier | AUC  |
+|---------------------|-----------|---------|-------------|----------|------------|--------|----------|-------|------|----------|-------|------|
+| Densenet121         | 0.00      | 97.36   | 97.32       | 97.44    | 97.36      | 97.36  | 97.32    | 0.95  | 0.95 | 0.09     | 0.02  | 1.00 |
+| EfficientNetV2      | 0.00      | 98.83   | 98.81       | 98.83    | 98.83      | 98.83  | 98.81    | 0.98  | 0.98 | 0.06     | 0.01  | 1.00 |
+| Resnet50            | 0.00      | 98.53   | 98.52       | 98.55    | 98.53      | 98.53  | 98.52    | 0.97  | 0.97 | 0.08     | 0.01  | 1.00 |
+| inceptionv3         | 0.00      | 98.53   | 98.50       | 98.57    | 98.53      | 98.53  | 98.50    | 0.97  | 0.97 | 0.08     | 0.02  | 1.00 |
+| **Weighted Ensemble** | 0.00      | 98.53   | 98.52       | 98.55    | 98.53      | 98.53  | 98.52    | 0.97  | 0.97 | 0.07     | 0.01  | 1.00 |
+
+
+### Test set performance with TTA (Oral cancer)
+
+| Model               | Test Loss | Acc (%) | Bal Acc (%) | Prec (%) | Recall (%) | F1 (%) | Spec (%) | Kappa | MCC  | Log Loss | Brier | AUC  |
+|---------------------|-----------|---------|-------------|----------|------------|--------|----------|-------|------|----------|-------|------|
+| Densenet121         | 0.00      | 97.36   | 97.32       | 97.44    | 97.36      | 97.36  | 97.32    | 0.95  | 0.95 | 0.09     | 0.02  | 1.00 |
+| EfficientNetV2      | 0.00      | 98.83   | 98.81       | 98.83    | 98.83      | 98.83  | 98.81    | 0.98  | 0.98 | 0.06     | 0.01  | 1.00 |
+| Resnet50            | 0.00      | 98.53   | 98.52       | 98.55    | 98.53      | 98.53  | 98.52    | 0.97  | 0.97 | 0.08     | 0.01  | 1.00 |
+| inceptionv3         | 0.00      | 98.53   | 98.50       | 98.57    | 98.53      | 98.53  | 98.50    | 0.97  | 0.97 | 0.08     | 0.02  | 1.00 |
+| **Weighted Ensemble** | 0.00      | 98.53   | 98.52       | 98.55    | 98.53      | 98.53  | 98.52    | 0.97  | 0.97 | 0.07     | 0.01  | 1.00 |
+
 
