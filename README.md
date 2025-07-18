@@ -30,6 +30,7 @@ explore external validation and integration of multi-modal data to enhance gener
 applicability across diverse clinical environments.
 
 
+![Example Image](Block.jpg)
 
 ![Example Image](cc-dnt.png)
 
